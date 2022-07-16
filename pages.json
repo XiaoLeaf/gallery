@@ -1,0 +1,263 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/home/index",
+		"style": {
+			"navigationBarTitleText": "%login.title%",
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "%tabbar.home%",
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/my/index",
+		"style": {
+			"navigationBarTitleText": "%tabbar.order%",
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/place/index",
+		"style": {
+			"navigationBarTitleText": "%tabbar.place%",
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/order/index",
+		"style": {
+			"navigationBarTitleText": "%tabbar.my%",
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Gallery",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"subPackages": [{
+			"root": "login",
+			"pages": [{
+				"path": "pages/index/index",
+				"style": {
+					"navigationBarTitleText": "%login.title%",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "pages/forget/index",
+				"style": {
+					"navigationBarTitleText": "%login.forget%",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "pages/register/index",
+				"style": {
+					"navigationBarTitleText": "%login.register%",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "mine",
+			"pages": [{
+				"path": "pages/setting/index",
+				"style": {
+					"navigationBarTitleText": "%my.setting%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/pay-pwd/index",
+				"style": {
+					"navigationBarTitleText": "%my.pay.password%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/login-pwd/index",
+				"style": {
+					"navigationBarTitleText": "%form.password%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/address/index",
+				"style": {
+					"navigationBarTitleText": "%my.address%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/address/add",
+				"style": {
+					"navigationBarTitleText": "%my.add.address%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/address/edit",
+				"style": {
+					"navigationBarTitleText": "%my.edit.address%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/money/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "pages/new-login-pwd/index",
+				"style": {
+					"navigationBarTitleText": "%form.password%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/calligraphy/index",
+				"style": {
+					"navigationBarTitleText": "%my.calligraphy%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/appointment/index",
+				"style": {
+					"navigationBarTitleText": "%my.appointment.record%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/security/index",
+				"style": {
+					"navigationBarTitleText": "%my.security.center%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/switch-account/index",
+				"style": {
+					"navigationBarTitleText": "%my.switch%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/book/index",
+				"style": {
+					"navigationBarTitleText": "%my.book%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/bind/index",
+				"style": {
+					"navigationBarTitleText": "%my.bind%",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "goods",
+			"pages": [{
+				"path": "pages/detail/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "core",
+			"pages": [{
+				"path": "pages/article/index",
+				"style": {
+					"navigationBarTitleText": "%core.article%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/article/detail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/article/example",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/webview/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "distribution",
+			"pages": [{
+				"path": "pages/performance/index",
+				"style": {
+					"navigationBarTitleText": "%place.performance.statistics%",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/fans/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/cash/index",
+				"style": {
+					"navigationBarTitleText": "我的提现",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/cash/withdraw/index",
+				"style": {
+					"navigationBarTitleText": "提现",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "pages/cash/withdraw/account",
+				"style": {
+					"navigationBarTitleText": "提现账户",
+					"enablePullDownRefresh": false
+				}
+			}]
+		}
+	],
+	"tabBar": {
+		"borderStyle": "white",
+		"list": [{
+				"iconPath": "static/images/home_.png",
+				"selectedIconPath": "static/images/home.png",
+				"pagePath": "pages/index/index",
+				"text": "%tabbar.home%"
+			},
+			{
+				"iconPath": "static/images/team_.png",
+				"selectedIconPath": "static/images/team.png",
+				"pagePath": "pages/order/index",
+				"text": "%tabbar.order%"
+			},
+			{
+				"iconPath": "static/images/team_.png",
+				"selectedIconPath": "static/images/team.png",
+				"pagePath": "pages/place/index",
+				"text": "%tabbar.place%"
+			},
+			{
+				"iconPath": "static/images/mine_.png",
+				"selectedIconPath": "static/images/mine.png",
+				"pagePath": "pages/my/index",
+				"text": "%tabbar.my%"
+			}
+		]
+	}
+}
