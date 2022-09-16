@@ -28,7 +28,7 @@
 												<u-input v-model="register.tel" type="number" :placeholder="$t('form.phone')"></u-input>
 											</view>
 										</u-form-item>
-										<u-form-item :label="$t('register.security.captcha')" :label-style="labelStyle" :left-icon-style="iconStyle" prop="tel">
+										<!-- <u-form-item :label="$t('register.security.captcha')" :label-style="labelStyle" :left-icon-style="iconStyle" prop="tel">
 											<view class="phone-input-box">
 												<view class="icon-box">
 													<u-icon custom-prefix="zx-icon" name="validate" size="32" color="#999"></u-icon>
@@ -36,7 +36,7 @@
 												<u-input v-model="register.vcode" :placeholder="$t('register.security.captcha')"></u-input>
 											</view>
 											<image slot="right" @click="$u.debounce(onClickRefreshCaptcha, 400, true)" webp="true" lazy-load="true" class="content-img" mode="widthFix" :src="captchaImg"></image>
-										</u-form-item>
+										</u-form-item> -->
 										<u-form-item :label="$t('register.sms.captcha')" :label-style="labelStyle" :left-icon-style="iconStyle" prop="code">
 											<view class="phone-input-box">
 												<view class="icon-box">
@@ -44,7 +44,8 @@
 												</view>
 												<u-input v-model="register.code" type="number" maxlength="6" placeholder="- - - - - -"></u-input>
 											</view>
-											<button slot="right" :style="indexConfig ? indexConfig.btnStyle.secondary : ''" :disabled="disabled" @click="$u.debounce(onClickCodeBtn, 400, true)" class="code-btn">{{ codeBtnStr }}</button>
+											<!-- <button slot="right" :style="indexConfig ? indexConfig.btnStyle.secondary : ''" :disabled="disabled" @click="$u.debounce(onClickCodeBtn, 400, true)" class="code-btn">{{ codeBtnStr }}</button> -->
+											<zx-sms slot="right" :tel="register.tel" :type="$api.CODE_TYPE.REGISTER" :needCaptcha="true"></zx-sms>
 										</u-form-item>
 										<u-form-item :label="$t('register.nickname')" :label-style="labelStyle" :left-icon-style="iconStyle" prop="nickname">
 											<view class="icon-box">

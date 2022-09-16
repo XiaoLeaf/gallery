@@ -82,10 +82,11 @@
 	"placeholder.captcha": "请输入验证码",
 	"placeholder.select": "请选择",
 	"placeholder.fillin": "请填写",
+	"placeholder.vcode": "请输入图形验证码",
 	
 	"register.title": "新用户注册",
-	"register.nickname": "请设置昵称",
-	"register.invitation": "请输入邀请码（必填）",
+	"register.nickname": "设置昵称",
+	"register.invitation": "输入邀请码（必填）",
 	"register.security.captcha": "图形验证码",
 	"register.sms.captcha": "短信验证码",
 	

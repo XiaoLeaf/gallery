@@ -143,6 +143,7 @@
 <style lang="less">
 	/* #ifndef APP-PLUS */
 	@import "common/default.less";
+	@import "common/common.less";
 	/* #endif */
 
 	.u-badge {
