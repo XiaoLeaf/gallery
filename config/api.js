@@ -60,7 +60,7 @@ module.exports = {
 	
 	userList: common.storagePrefix + 'userList',
 	
-	keyStr: 'QpbTkP',
+	keyStr: 'HuaTkP',
 	
 	index: {
 		start: '/index/start',
